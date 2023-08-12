@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;700&family=Bellefair&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Space Tourism</title>
+</head>
+<body>
+
+    <!-- wrapper container -->
+    <section id="wrap2">
+
+        <!-- logo and nav menu container -->
+        <div class="flex justify-between container max-w-full h-[96px] lg:h-[136px] lg:pt-[40px] ">
+            <!-- logo container -->
+            <div class="pl-[24px] py-[28px] md:pl-[39px] py-[24px] lg:pl-[55px]">
+                <a href="home.html">
+                    <img src="../images/shared/logo.svg" alt="" class="w-[40px] h-[40px] md:h-[48px] md:w-[48px]">
+                </a>
+            </div>
+
+            <!-- hamburger button -->
+            <div class="md:hidden">
+                <button id="menu-btn" type="button" class="z-40 block hamburger md:hidden focusoutline-none">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+            </div>
+
+            <!-- wrapper nav menu -->
+            <div class="relative md:w-[450px] md:h-[96px] lg:w-[830px] xl:w-[1273px]">
+                <!-- line -->
+                <div class="absolute xl:w-[473px] xl:h-[1px] xl:bg-white xl:mt-[50px] xl:opacity-30"></div>
+                <!-- nav menu container -->
+                <div class="absolute md:w-[450px] md:h-[96px] lg:w-[830px] xl:ml-[443px]">
+                    <div class="absolute md:w-[450px] md:h-[96px] md:opacity-5 md:bg-white lg:w-[830px]"></div>
+                    <!-- nav menu lists -->
+                    <div class="menu relative md:mt-[39px] md:w-[356px] md:h-[18px] md:mx-auto md:flex md:justify-between md:tracking-widest lg:w-[542px] lg:h-[19px]">
+                        
+                        <!-- tablet menu list -->
+                        <div class="tablet md:w-[356px] md:flex md:justify-between md:font-Barlow md:font-normal md:text-[14px] md:text-white md:tracking-widest lg:hidden">
+                            <div class="group">
+                                <a href="home.html" id="home1">
+                                    HOME
+                                </a>
+                                <div class="group-hover:border-b group-hover:border-[3px] group-hover:border-lightBlue group-hover:mt-[32px]"></div>
+                            </div>
+
+                            <div class="group">
+                                <a href="destination.html" id="destination1">
+                                    DESTINATION
+                                </a>
+                                <div class="group-hover:border-b group-hover:border-[3px] group-hover:border-lightBlue group-hover:mt-[32px]"></div>
+                            </div>
+
+                            <div class="group">
+                                <a href="crew.html">
+                                    CREW
+                                </a>
+                                <div class="group-hover:border-b group-hover:border-[3px] group-hover:border-lightBlue group-hover:mt-[32px]"></div>
+                            </div>
+
+                            <div class="group">
+                                <a href="technology.html">
+                                    TECHNOLOGY
+                                </a>
+                                <div class="group-hover:border-b group-hover:border-[3px] group-hover:border-lightBlue group-hover:mt-[32px]"></div>
+                            </div>  
+
+                        </div>
+
+                        <!-- desktop menu list -->
+                        <div class="desktop md:hidden lg:w-[542px] lg:flex lg:justify-between lg:font-Barlow lg:font-normal lg:text-[16px] lg:text-white">
+                            <div class="group">
+                                <a href="home.html" id="home2">
+                                    <span class="font-bold">00</span>
+                                    HOME
+                                </a>
+                                <div class="group-hover:border-b group-hover:border-[3px] group-hover:border-lightBlue group-hover:mt-[29px]"></div>
+                            </div>
+
+                            <div class="group">
+                                <a href="destination.html" id="destination2">
+                                    <span class="font-bold">01</span>
+                                    DESTINATION
+                                </a>
+                                <div class="group-hover:border-b group-hover:border-[3px] group-hover:border-lightBlue group-hover:mt-[29px]"></div>
+                            </div>
+
+                            <div class="group">
+                                <a href="crew.html">
+                                    <span class="font-bold">02</span>
+                                    CREW
+                                </a>
+                                <div class="group-hover:border-b group-hover:border-[3px] group-hover:border-lightBlue group-hover:mt-[29px]"></div>
+                            </div>
+
+                            <div class="group">
+                                <a href="technology.html">
+                                    <span class="font-bold">03</span>
+                                    TECHNOLOGY
+                                </a>
+                                <div class="group-hover:border-b group-hover:border-[3px] group-hover:border-lightBlue group-hover:mt-[29px]"></div>
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <!-- content main container -->
+        <div class="container flex flex-col justify-between max-w-[1110px] mx-auto h-[762px] md:h-[928px] lg:h-[764px]">
+            <!-- content container -->
+            <div class="flex flex-col justify-between mx-auto h-[704px] md:h-[826px] md:ml-[38px] md:mt-[40px] lg:mx-0 lg:mt-[76px] lg:flex-row">
+                
+                <!-- first content container -->
+                <div class="flex flex-col justify-between h-[221px] w-[221px] mx-auto md:w-[631px] md:h-[384px] md:mx-0 lg:h-[576px] lg:w-[508px]">
+                    <!-- first content -->
+                    <div class="text[16px] text-center uppercase text-white font-Barlow tracking-widest md:text-left md:text-[20px] lg:text-[28px]">
+                        <span class="font-bold text-slate-600 mr-[15px]">01</span>
+                        Pick your destination
+                    </div>
+                    <!-- second content -->
+                    <div class="h-[170px] w-[170px] mx-auto md:w-[300px] md:h-[300px] lg:w-[445px] lg:h-[445px]">
+                        <img src="../images/destination/image-moon.png" alt="">
+                    </div>
+                </div>
+
+                <!-- second content container -->
+                <div class="flex flex-col justify-between h-[457px] w-[327px] md:h-[389px] md:w-[573px] md:mx-auto lg:mx-0 lg:w-[445px] lg:h-[472px] lg:mt-[120px]">
+                    
+                    <!-- first content / nav menu for planets & information -->
+                    <div class="flex justify-between h-[28px] w-[237px] mx-auto text-lightBlue text-[14px] uppercase font-Barlow tracking-widest md:h-[34px] md:w-[285px] md:text-[16px] lg:mx-0">
+                        <!-- nav element 1  -->
+                        <div class="group">
+                            <a href="#">
+                                moon
+                            </a>
+                            <div class="group-hover:border-b group-hover:border-[2px] group-hover:border-lightBlue group-hover:mt-[4px]"></div>
+                        </div>
+
+                        <!-- nav element 2  -->
+                        <div class="group">
+                            <a href="#">
+                                mars
+                            </a>
+                            <div class="group-hover:border-b group-hover:border-[2px] group-hover:border-lightBlue group-hover:mt-[4px]"></div>
+                        </div>
+
+                        <!-- nav element 3  -->
+                        <div class="group">
+                            <a href="#">
+                                europa
+                            </a>
+                            <div class="group-hover:border-b group-hover:border-[2px] group-hover:border-lightBlue group-hover:mt-[4px]"></div>
+                        </div>
+
+                        <!-- nav element 4  -->
+                        <div class="group">
+                            <a href="#">
+                                titans
+                            </a>
+                            <div class="group-hover:border-b group-hover:border-[2px] group-hover:border-lightBlue group-hover:mt-[4px]"></div>
+                        </div>
+                    </div>
+
+                    <!-- second content / planet name -->
+                    <div class="text-center uppercase font-Bellefair text-[56px] text-white tracking-widest md:text-[80px] lg:text-left lg:text-[100px]">
+                        moon
+                    </div>
+
+                    <!-- third content / details -->
+                    <div class="font-Bellefair text-center text-[15px] text-lightBlue md:text-[16px] lg:text-left lg:text-[18px]">
+                        See our planet as you’ve never seen it before. A perfect relaxing trip away to 
+                        help regain perspective and come back refreshed. While you’re there, take in 
+                        some history by visiting the Luna 2 and Apollo 11 landing sites.
+                    </div>
+
+                    <!-- line through -->
+                    <div class="w-[327px] h-[1px] bg-white md:w-[573px] lg:w-[444px]"></div>
+
+                    <!-- distance & time container -->
+                    <div class="flex flex-col justify-between mx-auto w-[223px] h-[154px] md:w-[450px] md:h-[69px] md:flex-row">
+
+                        <!-- distance container -->
+                        <div class="flex flex-col h-[61px] w-[223px] mx-auto md:h-[69px] md:w-[450px] lg:mx-0">
+                            <!-- distance -->
+                            <div class="flex flex-col text-lightBlue text-[14px] uppercase tracking-widest text-center font-Barlow lg:text-left">
+                                AVG. DISTANCE
+                            </div>
+                            <!-- time -->
+                            <div class="flex flex-col text-white text-[28px] uppercase tracking-widest text-center font-Bellefair lg:text-left">
+                                384,400 km
+                            </div>
+                        </div>
+
+                        <!-- time container -->
+                        <div class="flex flex-col h-[61px] w-[223px] mx-auto md:h-[69px] md:w-[450px] lg:mx-0">
+                            <!-- distance -->
+                            <div class="flex flex-col text-lightBlue text-[14px] uppercase tracking-widest text-center font-Barlow lg:text-left">
+                                Est. travel time
+                            </div>
+                            <!-- time -->
+                            <div class="flex flex-col text-white text-[28px] uppercase tracking-widest text-center font-Bellefair lg:text-left">
+                                3 days
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- mobile-menu -->
+        <div id="menu" class="absolute top-0 bottom-0 right-0 hidden flex-col self-end w-[70%] min-h-screen py-1 pt-[145px] pl-12 space-y-10 text-[16px] text-white uppercase font-Barlow backdrop-blur-xl">
+            <div class="group tracking-widest flex justify-between">
+                <a href="home.html" id="home3">
+                    <span class="font-bold">00</span>
+                    HOME
+                </a>
+                <div class="group-hover:border-b group-hover:border-[3px] group-hover:border-white group-hover:h-[20px]"></div>
+            </div>
+
+            <div class="group tracking-widest flex justify-between">
+                <a href="destination.html" id="destination3">
+                    <span class="font-bold">01</span>
+                    DESTINATION
+                </a>
+                <div class="group-hover:border-b group-hover:border-[3px] group-hover:border-white group-hover:h-[20px]"></div>
+            </div>
+
+            <div class="group tracking-widest flex justify-between">
+                <a href="crew.html">
+                    <span class="font-bold">02</span>
+                    CREW
+                </a>
+                <div class="group-hover:border-b group-hover:border-[3px] group-hover:border-white group-hover:h-[20px]"></div>
+            </div>
+
+            <div class="group tracking-widest flex justify-between">
+                <a href="technology.html">
+                    <span class="font-bold">03</span>
+                    TECHNOLOGY
+                </a>
+                <div class="group-hover:border-b group-hover:border-[3px] group-hover:border-white group-hover:h-[20px]"></div>
+            </div>
+
+        </div>
+        
+    </section> 
+
+</body>
+    
+
+

@@ -1,0 +1,178 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Home bg image */
+#wrap {
+    background-image: url("../images/home/background-home-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    #wrap {
+        background-image: url("../images/home/background-home-tablet.jpg");
+    }
+
+}
+
+@media (max-width: 480px) {
+    #wrap {
+        background-image: url("../images/home/background-home-mobile.jpg");
+    }
+}
+
+@media (max-width: 767px) {
+    .tablet, .desktop {
+        display: none;
+    }
+}
+
+/* Destination bg image */
+#wrap2 {
+    background-image: url("../images/destination/background-destination-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    #wrap2 {
+        background-image: url("../images/destination/background-destination-tablet.jpg");
+    }
+
+}
+
+@media (max-width: 480px) {
+    #wrap2 {
+        background-image: url("../images/destination/background-destination-mobile.jpg");
+    }
+
+    .tablet, .desktop {
+        display: none;
+    }
+}
+
+
+/* crew bg image */
+#wrap3 {
+    background-image: url("../images/crew/background-crew-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    #wrap3 {
+        background-image: url("../images/crew/background-crew-tablet.jpg");
+    }
+
+}
+
+@media (max-width: 480px) {
+    #wrap3 {
+        background-image: url("../images/crew/background-crew-mobile.jpg");
+    }
+
+    .tablet, .desktop {
+        display: none;
+    }
+}
+
+
+/* technology bg image */
+#wrap4 {
+    background-image: url("../images/technology/background-technology-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    #wrap4 {
+        background-image: url("../images/technology/background-technology-tablet.jpg");
+    }
+
+    
+
+}
+
+@media (max-width: 480px) {
+    #wrap4 {
+        background-image: url("../images/technology/background-technology-mobile.jpg");
+    }
+
+    .tablet, .desktop {
+        display: none;
+    }
+
+    
+}
+
+@media (max-width: 975px) {
+
+    .side-image {
+        display: none;
+    }
+}
+
+
+/* Hamburger Menu */
+.hamburger {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    transition: all 0.25s;
+    position: absolute;
+    margin-top: 40px;
+    right: 24px;
+
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    top: 0px;
+    left: 0;
+    background: #fff;
+    transform: rotate(0);
+    transition: all 0.5s;
+}
+
+.hamburger-middle {
+    transform: translateY(7px);
+}
+
+.hamburger-bottom {
+    transform: translateY(14px);
+}
+
+.open {
+    transform: rotate(90deg);
+}
+
+.open .hamburger-top {
+    transform: rotate(45deg) translateY(6px) translateX(6px);
+}
+
+.open .hamburger-middle {
+    display: none;
+}
+
+.open .hamburger-bottom {
+    transform: rotate(-45deg) translateY(6px) translateX(-6px);
+}
+
+.dot {
+    background-color: #979797;
+    border-radius: 50%;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #ffffff;
+  }
+
+  /* .btn {
+    border: 1px solid #3b3c43;
+  } */

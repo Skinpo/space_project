@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;700&family=Bellefair&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Space Tourism</title>
+</head>
+<body>
+    
+    <!-- wrapper container -->
+    <section id="wrap3">
+
+        <!-- logo and nav menu container -->
+        <div class="flex justify-between container max-w-full h-[96px] lg:h-[136px] lg:pt-[40px] ">
+            <!-- logo container -->
+            <div class="pl-[24px] py-[28px] md:pl-[39px] py-[24px] lg:pl-[55px]">
+                <a href="home.html">
+                    <img src="../images/shared/logo.svg" alt="" class="w-[40px] h-[40px] md:h-[48px] md:w-[48px]">
+                </a>
+            </div>
+
+            <!-- hamburger button -->
+            <div class="md:hidden">
+                <button id="menu-btn" type="button" class="z-40 block hamburger md:hidden focusoutline-none">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+            </div>
+
+            <!-- wrapper nav menu -->
+            <div class="relative md:w-[450px] md:h-[96px] lg:w-[830px] xl:w-[1273px]">
+                <!-- line -->
+                <div class="absolute xl:w-[473px] xl:h-[1px] xl:bg-white xl:mt-[50px] xl:opacity-30"></div>
+                <!-- nav menu container -->
+                <div class="absolute md:w-[450px] md:h-[96px] lg:w-[830px] xl:ml-[443px]">
+                    <div class="absolute md:w-[450px] md:h-[96px] md:opacity-5 md:bg-white lg:w-[830px]"></div>
+                    <!-- nav menu lists -->
+                    <div class="menu relative md:mt-[39px] md:w-[356px] md:h-[18px] md:mx-auto md:flex md:justify-between md:tracking-widest lg:w-[542px] lg:h-[19px]">
+                        
+                        <!-- tablet menu list -->
+                        <div class="tablet md:w-[356px] md:flex md:justify-between md:font-Barlow md:font-normal md:text-[14px] md:text-white md:tracking-widest lg:hidden">
+                            <div class="group">
+                                <a href="home.html" id="home1">
+                                    HOME
+                                </a>
+                                <div class="group-hover:border-b group-hover:border-[3px] group-hover:border-lightBlue group-hover:mt-[32px]"></div>
+                            </div>
+
+                            <div class="group">
+                                <a href="destination.html" id="destination1">
+                                    DESTINATION
+                                </a>
+                                <div class="group-hover:border-b group-hover:border-[3px] group-hover:border-lightBlue group-hover:mt-[32px]"></div>
+                            </div>
+
+                            <div class="group">
+                                <a href="crew.html">
+                                    CREW
+                                </a>
+                                <div class="group-hover:border-b group-hover:border-[3px] group-hover:border-lightBlue group-hover:mt-[32px]"></div>
+                            </div>
+
+                            <div class="group">
+                                <a href="technology.html">
+                                    TECHNOLOGY
+                                </a>
+                                <div class="group-hover:border-b group-hover:border-[3px] group-hover:border-lightBlue group-hover:mt-[32px]"></div>
+                            </div>  
+
+                        </div>
+
+                        <!-- desktop menu list -->
+                        <div class="desktop md:hidden lg:w-[542px] lg:flex lg:justify-between lg:font-Barlow lg:font-normal lg:text-[16px] lg:text-white">
+                            <div class="group">
+                                <a href="home.html" id="home2">
+                                    <span class="font-bold">00</span>
+                                    HOME
+                                </a>
+                                <div class="group-hover:border-b group-hover:border-[3px] group-hover:border-lightBlue group-hover:mt-[29px]"></div>
+                            </div>
+
+                            <div class="group">
+                                <a href="destination.html" id="destination2">
+                                    <span class="font-bold">01</span>
+                                    DESTINATION
+                                </a>
+                                <div class="group-hover:border-b group-hover:border-[3px] group-hover:border-lightBlue group-hover:mt-[29px]"></div>
+                            </div>
+
+                            <div class="group">
+                                <a href="crew.html">
+                                    <span class="font-bold">02</span>
+                                    CREW
+                                </a>
+                                <div class="group-hover:border-b group-hover:border-[3px] group-hover:border-lightBlue group-hover:mt-[29px]"></div>
+                            </div>
+
+                            <div class="group">
+                                <a href="technology.html">
+                                    <span class="font-bold">03</span>
+                                    TECHNOLOGY
+                                </a>
+                                <div class="group-hover:border-b group-hover:border-[3px] group-hover:border-lightBlue group-hover:mt-[29px]"></div>
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+
+
+        <!-- content main container -->
+        <div class="container flex flex-col justify-between max-w-[1138px] mx-auto h-[646px] md:h-[888px] lg:h-[764px]">
+            <!-- content container -->
+            <div class="flex flex-col justify-between mx-auto h-[518px] md:h-[864px] md:ml-[38px] md:mt-[40px] lg:mx-0 lg:mt-[76px] lg:flex-row lg:h-[712px]">
+                <!-- first content container (only content container for mobile) -->
+                <div class="flex flex-col justify-between h-[518px] w-[327px] md:w-[574px] md:h-[310px] lg:w-[488px] lg:h-[597px]">
+                    <!-- 1st content -->
+                    <div class="text[16px] text-center uppercase text-white font-Barlow tracking-widest md:text-left md:text-[20px] lg:text-[28px]">
+                        <span class="font-bold text-slate-600 mr-[15px]">02</span>
+                        Meet your crew
+                    </div>
+
+                    <!-- 2nd content -->
+                    <div class="flex flex-col w-[327px] h-[223px] md:hidden">
+                        <div class="mx-auto w-[177px] h-[222px] md:hidden">
+                            <!-- Ddynamically inject image through javascript, feeding from the json file -->
+                            <img src="../images/crew/image-douglas-hurley.png" alt="" class="h-[222px] md:hidden">
+                        </div>
+                        <!-- line -->
+                        <div class="bg-white w-[327px] h-[1px] md:hidden"></div>
+                    </div>
+
+                    <!-- 3rd content -->
+                    <div class="flex flex-col justify-between h-[212px] w-[327px] md:w-[458px] md:h-[232px] md:ml-[117px] lg:h-[409px] lg:w-[488px] lg:ml-0">
+                        <div class="dots flex justify-between w-[88px] mx-auto md:hidden">
+                            <div class="dot w-[10px] h-[10px]"></div>
+                            <div class="dot w-[10px] h-[10px]"></div>
+                            <div class="dot w-[10px] h-[10px]"></div>
+                            <div class="dot w-[10px] h-[10px]"></div>
+                        </div>
+
+                        <div class="h-[54px] flex flex-col justify-between md:h-[82px] lg:h-[116px]">
+                            <!-- injected dynamically through javascript consuming data from the json file -->
+                            <p class="text-grey text-[16px] font-Bellefair text-center uppercase tracking-widest md:text-[24px] lg:text-[32px] lg:text-left">
+                                commander
+                            </p>
+                            <h5 class="text-white text-[24px] font-Bellefair text-center uppercase md:text-[40px] lg:text-[56px] lg:text-left">
+                                Douglas Hurley
+                            </h5>
+                        </div>
+
+                        <!-- injected dynamically through javascript consuming data from the json file -->
+                        <h4 class="text-center text-Bellefair text-[15px] h-[100px] text-lightBlue md:text-[16px] md:h-[84px] md:tracking-tight lg:text-left lg:text-[18px] lg:h-[128px] lg:w-[444px]">
+                            Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. 
+                            He launched into space for the third time as commander of Crew Dragon Demo-2.
+                        </h4>
+
+                        <div class="tablet desktop flex justify-between mx-auto md:w-[88px] lg:w-[132px] lg:mx-0">
+                            <div class="dot tablet desktop md:w-[10px] md:h-[10px] lg:h-[15px] lg:w-[15px]"></div>
+                            <div class="dot tablet desktop md:w-[10px] md:h-[10px] lg:h-[15px] lg:w-[15px]"></div>
+                            <div class="dot tablet desktop md:w-[10px] md:h-[10px] lg:h-[15px] lg:w-[15px]"></div>
+                            <div class="dot tablet desktop md:w-[10px] md:h-[10px] lg:h-[15px] lg:w-[15px]"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- second content container (for images) -->
+                <div class="tablet desktop mx-auto md:h-[532px] md:w-[416px] lg:h-[688px] lg:w-[544px] lg:mx-0">
+                    <img src="../images/crew/image-douglas-hurley.png" alt="" class="tablet desktop md:h-[532px] md:w-[456px] lg:h-[688px] lg:w-[544px]">
+                </div>
+
+            </div>
+            
+        </div>
+
+        
+
+
+
+        <!-- mobile-menu -->
+        <div id="menu" class="absolute top-0 bottom-0 right-0 hidden flex-col self-end w-[70%] min-h-screen py-1 pt-[145px] pl-12 space-y-10 text-[16px] text-white uppercase font-Barlow backdrop-blur-xl">
+            <div class="group tracking-widest flex justify-between">
+                <a href="home.html" id="home3">
+                    <span class="font-bold">00</span>
+                    HOME
+                </a>
+                <div class="group-hover:border-b group-hover:border-[3px] group-hover:border-white group-hover:h-[20px]"></div>
+            </div>
+
+            <div class="group tracking-widest flex justify-between">
+                <a href="destination.html" id="destination3">
+                    <span class="font-bold">01</span>
+                    DESTINATION
+                </a>
+                <div class="group-hover:border-b group-hover:border-[3px] group-hover:border-white group-hover:h-[20px]"></div>
+            </div>
+
+            <div class="group tracking-widest flex justify-between">
+                <a href="crew.html">
+                    <span class="font-bold">02</span>
+                    CREW
+                </a>
+                <div class="group-hover:border-b group-hover:border-[3px] group-hover:border-white group-hover:h-[20px]"></div>
+            </div>
+
+            <div class="group tracking-widest flex justify-between">
+                <a href="technology.html">
+                    <span class="font-bold">03</span>
+                    TECHNOLOGY
+                </a>
+                <div class="group-hover:border-b group-hover:border-[3px] group-hover:border-white group-hover:h-[20px]"></div>
+            </div>
+
+        </div>
+
+    </section> 
+
+</body>
+   
