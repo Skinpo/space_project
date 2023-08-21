@@ -846,6 +846,10 @@ video {
   width: 40px;
 }
 
+.w-\[515px\] {
+  width: 515px;
+}
+
 .w-\[70\%\] {
   width: 70%;
 }
@@ -858,18 +862,6 @@ video {
   width: 100%;
 }
 
-.w-\[\] {
-  width: ;
-}
-
-.w-\[515\] {
-  width: 515;
-}
-
-.w-\[515px\] {
-  width: 515px;
-}
-
 .max-w-\[1110px\] {
   max-width: 1110px;
 }
@@ -878,16 +870,12 @@ video {
   max-width: 1138px;
 }
 
-.max-w-\[1273px\] {
-  max-width: 1273px;
+.max-w-\[1275px\] {
+  max-width: 1275px;
 }
 
 .max-w-full {
   max-width: 100%;
-}
-
-.max-w-\[1275px\] {
-  max-width: 1275px;
 }
 
 .flex-row {
@@ -941,11 +929,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-red-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 226 226 / var(--tw-bg-opacity));
 }
 
 .py-1 {
@@ -1057,6 +1040,16 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-slate-200 {
+  --tw-text-opacity: 1;
+  color: rgb(226 232 240 / var(--tw-text-opacity));
+}
+
+.text-slate-400 {
+  --tw-text-opacity: 1;
+  color: rgb(148 163 184 / var(--tw-text-opacity));
 }
 
 .backdrop-blur-xl {
@@ -1640,6 +1633,10 @@ video {
     margin-top: 120px;
   }
 
+  .lg\:mt-\[133px\] {
+    margin-top: 133px;
+  }
+
   .lg\:mt-\[20px\] {
     margin-top: 20px;
   }
@@ -1654,14 +1651,6 @@ video {
 
   .lg\:mt-\[76px\] {
     margin-top: 76px;
-  }
-
-  .lg\:mt-\[\] {
-    margin-top: ;
-  }
-
-  .lg\:mt-\[133px\] {
-    margin-top: 133px;
   }
 
   .lg\:flex {
@@ -1824,22 +1813,6 @@ video {
     width: 900px;
   }
 
-  .lg\:w-\[px\] {
-    width: px;
-  }
-
-  .lg\:w-\[12px\] {
-    width: 12px;
-  }
-
-  .lg\:w-\[127px\] {
-    width: 127px;
-  }
-
-  .lg\:w-\[1275px\] {
-    width: 1275px;
-  }
-
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -1858,11 +1831,6 @@ video {
 
   .lg\:rounded-full {
     border-radius: 9999px;
-  }
-
-  .lg\:py-0 {
-    padding-top: 0px;
-    padding-bottom: 0px;
   }
 
   .lg\:pl-\[55px\] {
@@ -1907,10 +1875,6 @@ video {
 
   .lg\:font-normal {
     font-weight: 400;
-  }
-
-  .lg\:leading-4 {
-    line-height: 1rem;
   }
 
   .lg\:leading-8 {
