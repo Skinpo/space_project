@@ -173,6 +173,38 @@
     background-color: #ffffff;
   }
 
+  .activate {
+    background: white;
+  }
+
+  .group:hover {
+    border: solid #D0D6F9 3px;
+    margin-bottom: 4px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+  }
+
+  .linear {
+    border: bottom;
+    border: 2px solid #fff;
+    margin-top: 4px;
+  }
+
+  .linear2 {
+    border: bottom;
+    border: 2px solid #fff;
+    margin-top: 30px;
+  }
+
+  .groups:hover {
+    border: solid #D0D6F9 3px;
+    margin-bottom: -38px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+  }
+
   /* .btn {
     border: 1px solid #3b3c43;
   } */
