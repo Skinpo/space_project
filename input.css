@@ -88,10 +88,9 @@
 @media (max-width: 768px) {
     #wrap4 {
         background-image: url("../images/technology/background-technology-tablet.jpg");
+
+
     }
-
-    
-
 }
 
 @media (max-width: 480px) {
@@ -177,7 +176,7 @@
     background: white;
   }
 
-  .group:hover {
+  .galaxy:hover {
     border: solid #D0D6F9 3px;
     margin-bottom: 4px;
     border-top: 0px;

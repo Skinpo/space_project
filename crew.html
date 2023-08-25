@@ -8,10 +8,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;700&family=Bellefair&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/crew.js" defer></script>
     <script src="js/script.js" defer></script>
     <title>Space Tourism</title>
 </head>
-<body>
+<body onload="setUpCrew()">
     
     <!-- wrapper container -->
     <section id="wrap3">
@@ -43,57 +44,25 @@
                     <div class="absolute md:w-[450px] md:h-[96px] md:opacity-5 md:bg-white lg:w-[830px]"></div>
                     <!-- nav menu lists -->
                     <div class="menu relative md:mt-[39px] md:w-[356px] md:h-[18px] md:mx-auto md:flex md:justify-between md:tracking-widest lg:w-[542px] lg:h-[19px]">
-                        
-                        <!-- tablet menu list -->
-                        <div class="tablet md:w-[356px] md:flex md:justify-between md:font-Barlow md:font-normal md:text-[14px] md:text-white md:tracking-widest lg:hidden">
-                            <div class="group">
-                                <a href="home.html" id="home1">
-                                    HOME
-                                </a>
-                                <div class="group-hover:border-b group-hover:border-[3px] group-hover:border-lightBlue group-hover:mt-[32px]"></div>
-                            </div>
 
-                            <div class="group">
-                                <a href="destination.html" id="destination1">
-                                    DESTINATION
-                                </a>
-                                <div class="group-hover:border-b group-hover:border-[3px] group-hover:border-lightBlue group-hover:mt-[32px]"></div>
-                            </div>
-
-                            <div class="group">
-                                <a href="crew.html">
-                                    CREW
-                                </a>
-                                <div class="group-hover:border-b group-hover:border-[3px] group-hover:border-lightBlue group-hover:mt-[32px]"></div>
-                            </div>
-
-                            <div class="group">
-                                <a href="technology.html">
-                                    TECHNOLOGY
-                                </a>
-                                <div class="group-hover:border-b group-hover:border-[3px] group-hover:border-lightBlue group-hover:mt-[32px]"></div>
-                            </div>  
-
-                        </div>
-
-                        <!-- desktop menu list -->
-                        <div class="desktop md:hidden lg:w-[542px] lg:flex lg:justify-between lg:font-Barlow lg:font-normal lg:text-[16px] lg:text-white">
+                        <!-- desktop & tablet menu list -->
+                        <div class="desktop md:w-[356px] md:flex md:justify-between md:font-Barlow md:font-normal md:text-[14px] md:text-white md:tracking-widest lg:w-[542px] lg:flex lg:justify-between lg:font-Barlow lg:font-normal lg:text-[16px] lg:text-white">
                             <div class="groups">
-                                <a href="home.html" id="home2" class="navigation">
+                                <a href="home.html">
                                     <span class="font-bold">00</span>
                                     HOME
                                 </a>
                             </div>
 
                             <div class="groups">
-                                <a href="destination.html" class="navigation">
+                                <a href="destination.html">
                                     <span class="font-bold">01</span>
                                     DESTINATION
                                 </a>
                             </div>
 
                             <div class="groups">
-                                <a href="crew.html" class="navigation">
+                                <a href="crew.html" class="navigate-crew">
                                     <span class="font-bold">02</span>
                                     CREW
                                 </a>
