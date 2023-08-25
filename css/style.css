@@ -984,6 +984,12 @@ video {
   }
 }
 
+@media (max-width: 975px) {
+  .pre {
+    display: none;
+  }
+}
+
 /* Destination bg image */
 
 #wrap2 {
@@ -1157,16 +1163,8 @@ video {
     border: 1px solid #3b3c43;
   } */
 
-.group:hover .group-hover\:mt-\[4px\] {
-  margin-top: 4px;
-}
-
 .group:hover .group-hover\:h-\[20px\] {
   height: 20px;
-}
-
-.group:hover .group-hover\:border-\[2px\] {
-  border-width: 2px;
 }
 
 .group:hover .group-hover\:border-\[3px\] {
@@ -1175,11 +1173,6 @@ video {
 
 .group:hover .group-hover\:border-b {
   border-bottom-width: 1px;
-}
-
-.group:hover .group-hover\:border-lightBlue {
-  --tw-border-opacity: 1;
-  border-color: rgb(208 214 249 / var(--tw-border-opacity));
 }
 
 .group:hover .group-hover\:border-white {

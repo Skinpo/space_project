@@ -20,7 +20,5 @@ const newDiv2 = document.createElement("div");
 // active state for nav menu (Desktop view)
 function setUpHome() {
     const homeNav = document.querySelector(".navigate-home");
-    const homeNav2 = document.querySelector(".navigate-home2");
     homeNav.appendChild(newDiv2);
-    // homeNav2.appendChild(newDiv2);
 }

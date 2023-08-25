@@ -1,5 +1,9 @@
 // active states for choosing of planets on destination page
-const galaxies = document.querySelector(".galaxy");
+const galaxies = document.querySelector(".cluster");
+const moon = document.querySelector(".moon");
+const mars = document.querySelector(".mars");
+const europa = document.querySelector(".europa");
+const titans = document.querySelector(".titans");
 
 const newDiv = document.createElement("div");
 newDiv.setAttribute("class", "line");
@@ -18,4 +22,5 @@ galaxies.addEventListener("click", e => {
 function setUpDest() {
     const destNav = document.querySelector(".navigate-dest");
     destNav.appendChild(newDiv2);
+    moon.appendChild(newDiv);
 }
