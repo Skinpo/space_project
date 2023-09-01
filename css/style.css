@@ -1169,9 +1169,9 @@ video {
   }
 }
 
-/* .btn {
-    border: 1px solid #3b3c43;
-  } */
+.btn:hover {
+  background-color: #D0D6F9;
+}
 
 .group:hover .group-hover\:h-\[20px\] {
   height: 20px;

@@ -25,13 +25,15 @@ function setUpHome() {
 
 
 
-// Fetching data from data.json
-const renderData = async () => {
-    let uri = "data.json";
+// Fetching data from data.json (global data)
+const getData = async () => {
+    const response = await fetch("data.json");
 
-    const res = await fetch(uri);
-    const data = await res.json();
-    console.log(data);
+    if (response.status ==! 200) {
+        throw new Error('cannot fetch from data, please check resource url')
+    }
+
+    const data = await response.json();
+    return data;
 }
 
-window.addEventListener("DOMContentLoaded", () => renderData());
