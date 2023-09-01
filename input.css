@@ -20,7 +20,6 @@
     #wrap {
         background-image: url("../images/home/background-home-mobile.jpg");
     }
-    
 }
 
 @media (max-width: 767px) {
@@ -57,10 +56,6 @@
     .tablet, .desktop {
         display: none;
     }
-
-    .galaxy:hover {
-        visibility: hidden;
-      }
 }
 
 
@@ -214,6 +209,16 @@
     border-left: 0px;
     border-right: 0px;
   }
+
+  @media (max-width: 767px) {
+    .galaxy:hover {
+        border: solid #D0D6F9 0px;
+        margin-bottom: 4px;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+      }
+}
 
   /* .btn {
     border: 1px solid #3b3c43;
