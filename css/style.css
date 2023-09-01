@@ -1012,6 +1012,10 @@ video {
   .tablet, .desktop {
     display: none;
   }
+
+  .galaxy:hover {
+    visibility: hidden;
+  }
 }
 
 /* crew bg image */

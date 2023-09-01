@@ -20,6 +20,7 @@
     #wrap {
         background-image: url("../images/home/background-home-mobile.jpg");
     }
+    
 }
 
 @media (max-width: 767px) {
@@ -56,6 +57,10 @@
     .tablet, .desktop {
         display: none;
     }
+
+    .galaxy:hover {
+        visibility: hidden;
+      }
 }
 
 

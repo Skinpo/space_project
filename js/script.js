@@ -22,3 +22,16 @@ function setUpHome() {
     const homeNav = document.querySelector(".navigate-home");
     homeNav.appendChild(newDiv2);
 }
+
+
+
+// Fetching data from data.json
+const renderData = async () => {
+    let uri = "data.json";
+
+    const res = await fetch(uri);
+    const data = await res.json();
+    console.log(data);
+}
+
+window.addEventListener("DOMContentLoaded", () => renderData());
