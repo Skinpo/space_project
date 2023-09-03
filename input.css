@@ -210,6 +210,14 @@
     border-right: 0px;
   }
 
+  .btn {
+    cursor: pointer;
+  }
+
+  .link:hover {
+    background-color: #D0D6F9;
+ }
+
   @media (max-width: 767px) {
     .galaxy:hover {
         border: solid #D0D6F9 0px;
@@ -218,8 +226,8 @@
         border-left: 0px;
         border-right: 0px;
       }
-}
 
- .btn:hover {
-    background-color: #D0D6F9;
- }
+      .link:hover {
+        background-color: #0b0c12;
+     }
+}
