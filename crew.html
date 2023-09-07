@@ -97,9 +97,12 @@
 
                     <!-- 2nd content -->
                     <div class="flex flex-col w-[327px] h-[223px] md:hidden">
-                        <div class="mx-auto w-[177px] h-[222px] md:hidden">
+                        <div class="relative photos mx-auto w-[177px] h-[222px] md:hidden">
                             <!-- Ddynamically inject image through javascript, feeding from the json file -->
-                            <img src="../images/crew/image-douglas-hurley.png" alt="" class="h-[222px] md:hidden">
+                            <img src="../images/crew/image-douglas-hurley.png" class="imgs h-[222px] md:hidden">
+                            <img src="../images/crew/image-mark-shuttleworth.png" class="imgs h-[222px] md:hidden">
+                            <img src="../images/crew/image-victor-glover.png" class="imgs h-[222px] md:hidden">
+                            <img src="../images/crew/image-anousheh-ansari.png" class="imgs h-[222px] md:hidden">
                         </div>
                         <!-- line -->
                         <div class="bg-white w-[327px] h-[1px] md:hidden"></div>
@@ -107,28 +110,34 @@
 
                     <!-- 3rd content -->
                     <div class="flex flex-col justify-between h-[212px] w-[327px] md:w-[458px] md:h-[232px] md:ml-[117px] lg:h-[409px] lg:w-[488px] lg:ml-0">
-                        <div class="dots flex justify-between w-[88px] mx-auto md:hidden">
-                            <div class="dot w-[10px] h-[10px]"></div>
-                            <div class="dot w-[10px] h-[10px]"></div>
-                            <div class="dot w-[10px] h-[10px]"></div>
-                            <div class="dot w-[10px] h-[10px]"></div>
+                        <div class="flex justify-between w-[88px] mx-auto md:hidden">
+                            <div class="dots w-[10px] h-[10px]"></div>
+                            <div class="dots w-[10px] h-[10px]"></div>
+                            <div class="dots w-[10px] h-[10px]"></div>
+                            <div class="dots w-[10px] h-[10px]"></div>
                         </div>
 
-                        <div class="h-[54px] flex flex-col justify-between md:h-[82px] lg:h-[116px]">
-                            <!-- injected dynamically through javascript consuming data from the json file -->
-                            <p class="text-slate-400 text-[16px] font-Bellefair text-center uppercase tracking-widest md:text-[24px] lg:text-[32px] lg:text-left">
-                                commander
-                            </p>
-                            <h5 class="text-white text-[24px] font-Bellefair text-center uppercase md:text-[40px] lg:text-[56px] lg:text-left">
-                                Douglas Hurley
-                            </h5>
-                        </div>
+                        <div class="description-content">
+                            
+                            <div class="discribe">
 
-                        <!-- injected dynamically through javascript consuming data from the json file -->
-                        <h4 class="text-center text-Bellefair text-[15px] h-[100px] text-lightBlue md:text-[16px] md:h-[84px] md:tracking-tight lg:text-left lg:text-[18px] lg:h-[128px] lg:w-[444px]">
-                            Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. 
-                            He launched into space for the third time as commander of Crew Dragon Demo-2.
-                        </h4>
+                                <div class="h-[54px] flex flex-col justify-between md:h-[82px] lg:h-[116px]">
+                                    <p class="text-slate-400 text-[16px] font-Bellefair text-center uppercase tracking-widest md:text-[24px] lg:text-[32px] lg:text-left">
+                                        commander
+                                    </p>
+                                    <h5 class="text-white text-[24px] font-Bellefair text-center uppercase md:text-[40px] lg:text-[56px] lg:text-left">
+                                        Douglas Hurley
+                                    </h5>
+                                </div>
+        
+                                <h4 class="text-center text-Bellefair text-[15px] h-[100px] text-lightBlue md:text-[16px] md:h-[84px] md:tracking-tight lg:text-left lg:text-[18px] lg:h-[128px] lg:w-[444px]">
+                                    Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. 
+                                    He launched into space for the third time as commander of Crew Dragon Demo-2.
+                                </h4>
+    
+                            </div>
+
+                        </div>
 
                         <div class="tablet desktop flex justify-between mx-auto md:w-[88px] lg:w-[132px] lg:mx-0">
                             <div class="dot tablet desktop md:w-[10px] md:h-[10px] lg:h-[15px] lg:w-[15px]"></div>
@@ -142,8 +151,11 @@
                 </div>
 
                 <!-- second content container (for images) -->
-                <div class="tablet desktop mx-auto md:h-[532px] md:w-[416px] lg:h-[688px] lg:w-[544px] lg:mx-0">
-                    <img src="../images/crew/image-douglas-hurley.png" alt="" class="tablet desktop md:h-[532px] md:w-[456px] lg:h-[688px] lg:w-[544px]">
+                <div class="images tablet desktop relative mx-auto md:h-[532px] md:w-[416px] lg:h-[688px] lg:w-[580px] lg:mx-0">
+                    <img src="../images/crew/image-douglas-hurley.png" class="img fade tablet desktop md:h-[532px] md:w-[456px] lg:h-[688px] lg:w-[544px]">
+                    <img src="../images/crew/image-mark-shuttleworth.png" class="img fade tablet desktop md:h-[532px] md:w-[456px] lg:h-[688px] lg:w-[544px]">
+                    <img src="../images/crew/image-victor-glover.png" class="img fade tablet desktop md:h-[532px] md:w-[456px] lg:h-[688px] lg:w-[580px]">
+                    <img src="../images/crew/image-anousheh-ansari.png" class="img fade tablet desktop md:h-[532px] md:w-[456px] lg:h-[688px] lg:w-[580px]">
                 </div>
 
             </div>

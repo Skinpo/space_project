@@ -589,10 +589,6 @@ video {
   margin-bottom: 48px;
 }
 
-.ml-\[15px\] {
-  margin-left: 15px;
-}
-
 .ml-\[30px\] {
   margin-left: 30px;
 }
@@ -607,10 +603,6 @@ video {
 
 .mt-\[65px\] {
   margin-top: 65px;
-}
-
-.mt-\[7px\] {
-  margin-top: 7px;
 }
 
 .block {
@@ -1136,7 +1128,13 @@ video {
   transition: background-color 0.6s ease;
 }
 
-.active {
+.dots {
+  background-color: #979797;
+  border-radius: 50%;
+  transition: background-color 0.6s ease;
+}
+
+.active2 {
   background-color: #ffffff;
 }
 
@@ -1194,6 +1192,25 @@ video {
   }
 }
 
+.active {
+  background-color: white;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
 .group:hover .group-hover\:h-\[20px\] {
   height: 20px;
 }
@@ -1236,10 +1253,6 @@ video {
     margin-left: 117px;
   }
 
-  .md\:ml-\[23px\] {
-    margin-left: 23px;
-  }
-
   .md\:ml-\[38px\] {
     margin-left: 38px;
   }
@@ -1250,10 +1263,6 @@ video {
 
   .md\:mt-\[103px\] {
     margin-top: 103px;
-  }
-
-  .md\:mt-\[10px\] {
-    margin-top: 10px;
   }
 
   .md\:mt-\[39px\] {
@@ -1533,10 +1542,6 @@ video {
     margin-left: 0px;
   }
 
-  .lg\:ml-\[30px\] {
-    margin-left: 30px;
-  }
-
   .lg\:ml-\[62px\] {
     margin-left: 62px;
   }
@@ -1555,10 +1560,6 @@ video {
 
   .lg\:mt-\[133px\] {
     margin-top: 133px;
-  }
-
-  .lg\:mt-\[15px\] {
-    margin-top: 15px;
   }
 
   .lg\:mt-\[251px\] {
@@ -1707,6 +1708,10 @@ video {
 
   .lg\:w-\[544px\] {
     width: 544px;
+  }
+
+  .lg\:w-\[580px\] {
+    width: 580px;
   }
 
   .lg\:w-\[630px\] {
